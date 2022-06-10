@@ -59,6 +59,7 @@ function TranslateInit(config) {
       "/" + config.lang + "/" + e.getAttribute("data-google-lang"),
       config.domain
     );
+    console.log(config.domain);
     /* Перезагружаем страницу */
     /* Reloading the page */
     window.location.reload();
